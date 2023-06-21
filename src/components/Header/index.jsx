@@ -10,7 +10,6 @@ import { logout, selectIsAuth } from '../../redux/slices/auth';
 export const Header = () => {
   const dispatch = useDispatch();
   const isAuth = useSelector(selectIsAuth);
-  // const isAuth = false;
 
   const onClickLogout = () => {
     if (window.confirm('Do you really want to log out?')) {
