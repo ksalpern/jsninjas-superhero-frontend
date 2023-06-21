@@ -68,9 +68,9 @@ export const Hero = ({
           <h2
             className={clsx(styles.title, { [styles.titleFull]: isFullPost })}
           >
-            {/* {isFullPost ? nickName :  //  }*/}
             <Link to={`/heros/${id}`}>{`${nickName}(${realName})`}</Link>
           </h2>
+          {isFullPost && <p className={styles.catchPhrase}>❝ {catchPhrase}</p>}
           <ul className={styles.tags}>
             {tags.map((name) => (
               <li key={name}>

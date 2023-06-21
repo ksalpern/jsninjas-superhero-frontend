@@ -19,9 +19,8 @@ export const Home = () => {
   console.log(heros);
 
   return (
-    <>
-      <Grid container>
-        <Grid xs display="grid" gridTemplateColumns="repeat(2, 1fr)" gap={2}>
+      // <Grid container>
+        <Grid display="grid" gridTemplateColumns={{ xs: '1fr', sm: 'repeat(2, 1fr)' }} gap={2}>
           {(isHerosLoading ? [...Array(5)] : heros.items).map((obj, index) =>
             isHerosLoading ? (
               <Hero key={index} isLoading={true} />
@@ -45,7 +44,6 @@ export const Home = () => {
             )
           )}
         </Grid>
-      </Grid>
-    </>
+      // </Grid>
   );
 };

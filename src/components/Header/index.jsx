@@ -24,13 +24,13 @@ export const Header = () => {
       <Container maxWidth="lg">
         <div className={styles.inner}>
           <Link className={styles.logo} to="/">
-            <div>SUPERHEROES</div>
+            <div>HEROES</div>
           </Link>
           <div className={styles.buttons}>
             {isAuth ? (
               <>
                 <Link to="/add-hero">
-                  <Button variant="contained">Add a hero</Button>
+                  <Button variant="contained">Add hero</Button>
                 </Link>
                 <Button onClick={onClickLogout} variant="contained" color="error">
                   Log Out
