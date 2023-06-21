@@ -2,7 +2,7 @@
 
 The Fullstack Superhero Database App is a powerful web application that allows users to manage a vast collection of superheroes. With user authentication and authorization features, users can create an account, log in, and log out to access exclusive functionalities. Only logged-in users have the privilege to add new heroes and update the heroes they've created. Each hero has its own dedicated page, providing a more detailed description, including their nickname, real name, origin story, superpowers, and catchphrase. Users can easily edit any field of a hero, including uploading images to the database. Powered by Node.js and MongoDB on the backend, and React with Material-UI on the frontend, this fullstack app offers a secure and immersive experience for superhero enthusiasts to manage their superhero database.
 
-Click [here](https://ksalpern-hero-app.vercel.app/) to see the app, [here]() to see how it works in my local machine and [here](https://github.com/ksalpern/jsninjas-superhero-testcase) to see backend😃
+Click [here](https://ksalpern-hero-app.vercel.app/) to see the app, [here](https://youtu.be/jDcAINbfGlE) to see how it works in my local machine and [here](https://github.com/ksalpern/jsninjas-superhero-testcase) to see backend😃
 
 ## Technologies used:
 
