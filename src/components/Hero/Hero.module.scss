@@ -1,8 +1,8 @@
 $blue: #4361ee;
 
 .root {
-  background-color: #fff;
-  border: 1px solid #dedede;
+  background-color: #132c42;
+  border: 1px solid #0c4e74;
   border-radius: 6px;
   overflow: hidden;
   margin-bottom: 15px;
@@ -16,14 +16,6 @@ $blue: #4361ee;
       opacity: 1;
     }
   }
-
-  &Full {
-    &:hover {
-      background-color: #fff;
-      border: 1px solid #dedede;
-      box-shadow: none;
-    }
-  }
 }
 
 .image {
@@ -34,6 +26,7 @@ $blue: #4361ee;
   &Full {
     min-height: 300px;
     height: 100%;
+    max-height: 500px;
   }
 }
 
@@ -48,8 +41,8 @@ $blue: #4361ee;
   font-size: 22px;
   font-weight: bold;
   line-height: 36px;
-  color: #303030;
-  background-color: hsla(202, 93%, 35%, 0.05);
+  color: #f5f5f5;
+  background-color: hsla(0, 0%, 100%, 0.05);
   padding: 20px 30px;
 }
 
@@ -70,20 +63,21 @@ $blue: #4361ee;
 }
 
 .title {
-  font-size: 28px;
+  font-size: calc(22px + (28 - 22) * ((100vw - 375px) / (1920 - 375)));
   margin: 0;
 
   a {
     text-decoration: none;
-    color: #000;
+    color: #ebebeb;
 
     &:hover {
-      color: $blue;
+      color: rgb(255, 253, 253);
+      text-decoration: underline;
     }
   }
 
   &Full {
-    font-size: 42px;
+    font-size: calc(30px + (42 - 30) * ((100vw - 375px) / (1920 - 375)));
     font-weight: 900;
   }
 }
@@ -105,7 +99,7 @@ $blue: #4361ee;
 
     a {
       text-decoration: none;
-      color: #000;
+      color: #f6f6f6;
     }
   }
 }

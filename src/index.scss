@@ -1,9 +1,16 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Roboto';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #F5F5F5 !important;
+  color: white !important;
+  background: #1F1F1F url(../public/4.jpeg) no-repeat center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  width: 100%;
 }
 
 ::-webkit-scrollbar {
