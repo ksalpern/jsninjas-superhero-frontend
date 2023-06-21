@@ -33,7 +33,7 @@ export const Home = () => {
                 description={obj.description}
                 catchPhrase={obj.catchPhrase}
                 imageUrl={
-                  obj.imageUrl ? `http://localhost:4444${obj.imageUrl}` : ""
+                  obj.imageUrl ? `${process.env.REACT_APP_API_URL}${obj.imageUrl}` : ""
                 }
                 user={obj.user}
                 createdAt={obj.createdAt}

@@ -36,7 +36,7 @@ export const FullHero = () => {
         realName={data.realName}
         description={data.description}
         catchPhrase={data.catchPhrase}
-        imageUrl={data.imageUrl ? `http://localhost:4444${data.imageUrl}` : ""}
+        imageUrl={data.imageUrl ? `${process.env.REACT_APP_API_URL}${data.imageUrl}` : ""}
         user={data.user}
         createdAt={data.createdAt}
         viewsCount={data.viewsCount}
