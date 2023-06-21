@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Superhero fullstack app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Fullstack Superhero Database App is a powerful web application that allows users to manage a vast collection of superheroes. With user authentication and authorization features, users can create an account, log in, and log out to access exclusive functionalities. Only logged-in users have the privilege to add new heroes and update the heroes they've created. Each hero has its own dedicated page, providing a more detailed description, including their nickname, real name, origin story, superpowers, and catchphrase. Users can easily edit any field of a hero, including uploading images to the database. Powered by Node.js and MongoDB on the backend, and React with Material-UI on the frontend, this fullstack app offers a secure and immersive experience for superhero enthusiasts to manage their superhero database.
 
-## Available Scripts
+Click [here](https://ksalpern-hero-app.vercel.app/) to see the app, [here]() to see how it works in my local machine and [here](https://github.com/ksalpern/jsninjas-superhero-testcase) to see backend😃
 
-In the project directory, you can run:
+## Technologies used:
 
-### `npm start`
+- [React.js](https://react.dev/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Redux](https://redux-toolkit.js.org/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Material UI](https://mui.com/)
 
-### `npm test`
+- [sass](https://www.npmjs.com/package/sass)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [react-simplemde-editor](https://www.npmjs.com/package/react-simplemde-editor)
 
-### `npm run build`
+- [react-hook-form](https://www.npmjs.com/package/react-hook-form)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [react-markdown](https://www.npmjs.com/package/react-markdown)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [prettier](https://www.npmjs.com/package/prettier)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [react-router-dom](https://www.npmjs.com/package/react-router-dom)
 
-### `npm run eject`
+## To run frontend locally, please follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository from GitHub.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```javascript
+git clone https://github.com/ksalpern/jsninjas-superhero-frontend
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Open the axios.js, FullHero.jsx, Home.jsx and AddHero/index.jsx and replace REACT_APP_API_URL with backend link, for example: **_http://localhost:4444/_**.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Install dependencies.
 
-## Learn More
+```javascript
+cd jsninjas-superhero-frontend
+yarn
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Start the server.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```javascript
+yarn start
+```
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+5. The website is now working, hope you enjoy it 😃
